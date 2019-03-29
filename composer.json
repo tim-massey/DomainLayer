@@ -1,0 +1,15 @@
+{
+    "name": "redmarker/domain-layer",
+    "description": "Domain layer for the redmarker suite of applications",
+    "type": "library",
+    "license": "Commercial",
+    "require": {
+        "php-di/php-di": "^6.0",
+        "jms/serializer": "1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "RedMarker\\": "./src"
+        }
+    }
+}
